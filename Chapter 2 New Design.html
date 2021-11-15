@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+     .banner-image {
+        background: url('images/woman-6023442_1920.jpg') no-repeat center center/cover;
+        height: 800px;
+        width: 100%;
+        position: relative;
+      
+        
+      }
+      .content {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50% , -50%);
+      }
+      span {
+     font-weight: bold;
+     color: white;
+     border-radius: 5px;
+       padding-top: 0px;
+       padding-right: 10px;
+       padding-left: 10px;
+       padding-bottom: 5px;
+       background-color: #8a2727
+   }
+   .projects {
+       padding-top: 30px;
+       padding-bottom: 10px;
+       width: 96.5%;
+       margin: auto;
+       border-bottom: 1px solid rgb(175, 173, 173);
+   }
+
+   .project1 {
+       
+        padding-top: 40px;
+        justify-content: space-evenly;
+        margin: auto;
+        filter: grayscale(65%);
+       
+    }
+    @media screen and (min-width:400px) {
+        .project1 {
+            display: flex;
+        width: 100%;
+        }
+        
+    }
+
+    .project-container1 {
+        display: flex;
+        position: relative;
+        height: 230px;
+    
+    }
+
+    .display-container1 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        color: rgb(247, 238, 238);
+        padding: 10px 15px;
+        background-color: black;
+      
+    }
+
+    .project-container2 {
+        display: flex;
+        position: relative;
+        height: 230px;
+       
+
+    }
+
+    .display-container2 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        color: rgb(247, 238, 238);
+        padding: 10px 15px;
+        background-color: black;
+    }
+    
+
+    .project-container3 {
+        display: flex;
+        position: relative;
+        height: 230px;
+       
+    }
+
+    .display-container3 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        color: rgb(247, 238, 238);
+        padding: 10px 15px;
+        background-color: black;
+      
+    }
+    .project-container4 {
+        display: flex;
+        position: relative;
+        height: 230px;
+
+    }
+    .display-container4 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        color: rgb(247, 238, 238);
+        padding: 10px 15px;
+        background-color: black;
+      
+    }
+
+    .about {
+        padding-top: 60px;
+        padding-bottom: 10px;
+        width: 96%;
+        margin: auto;
+        border-bottom: 1px solid grey;
+    }
+
+    .aboutimage1 {
+        height: 240px;
+        padding-right: 5px;
+    }
+    .aboutimage2 {
+        height: 240px;
+        padding-right: 0px;
+        padding-left: 15px;
+    
+    }
+
+    .about-container {
+      
+       
+       justify-content: space-between;
+        margin: auto;
+       padding-bottom: 40px;
+       filter: grayscale(75%);
+     
+    }
+
+    @media screen and (min-width:900px) {
+    .about-container {
+        display: flex;
+        width: 96%; }
+        
+    }
+
+    .aboutimage {height: 240px;}
+
+    .headings {
+        padding-right: 5px;
+        padding-left: 15px;
+    }
+    .aboutbutton {
+        padding: 10px 150px;
+        border: none;
+        font-weight:700;
+        cursor: pointer;
+    }
+    .aboutbutton:hover{
+       background-color: rgb(190, 183, 183);
+    }
+
+
+    #about-para {
+        padding-bottom: 40px;
+        width: 96%;
+        margin: auto;
+    }
+
+    .input {
+        width: 96%;
+        margin: auto;
+    }
+
+    ul li a:hover {
+        background-color:#8a2727 ;
+        border-radius: 5px;
+    }
+
+    .contact {
+        border-bottom: 1px solid grey;
+        width: 96%;
+        margin: auto;
+    }
+    #contact-para {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 96%;
+        margin: auto;
+    }
+    .navbar {
+        padding: 10px 20px;
+        box-shadow: 2px 2px 5px black;;
+     
+        background-color: white;
+    }
+    .container {
+        cursor: pointer;
+    }
+</style>
+<body> <div class="navbar1">
+
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark p-md-2">
+      <div class="container">
+        <a class="navbar-brand text-dark" href="#"><span><b>BR</b></span> Architects</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon text-white"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link text-dark px-4" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark px-4" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark px-4" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark px-4" href="#myModal"  data-bs-toggle="modal" data-bs-target="#myModal">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark px-4" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</div>
+    <div
+      class="banner-image"
+    >
+      <div class="content text-center" id="br">
+        <h1 class="text-white"><span>BR</span> Architects</h1>
+      </div>
+    </div>
+    <div class="projects" id="project">
+        <h2>Projects</h2>
+        
+    </div>
+    <div class="project1">
+
+        <div class="project-container1">
+            <img src="images/house5.jpg">
+            <div class="display-container1">
+                Summer House      
+            </div>
+        </div>
+
+        <div class="project-container2">
+            <img src="images/house2.jpg">
+            <div class="display-container2">
+                Brick House 
+                
+            </div>
+        </div>
+
+        <div class="project-container3">
+            <img src="images/house3.jpg">
+            <div class="display-container3">
+               Renovated
+                
+            </div>
+        </div>
+
+        <div class="project-container4">
+            <img src="images/house4.jpg">
+            <div class="display-container4">
+               Barn House
+                
+            </div>
+        </div>
+        </div>
+
+        <div class="project1">
+
+            <div class="project-container1">
+                <img src="images/house2.jpg">
+                <div class="display-container1">
+                    Summer House      
+                </div>
+            </div>
+    
+            <div class="project-container2">
+                <img src="images/house5.jpg">
+                <div class="display-container2">
+                    Brick House 
+                    
+                </div>
+            </div>
+    
+            <div class="project-container3">
+                <img src="images/house4.jpg">
+                <div class="display-container3">
+                   Renovated
+                    
+                </div>
+            </div>
+    
+            <div class="project-container4">
+                <img src="images/house3.jpg">
+                <div class="display-container4">
+                   Barn House
+                    
+                </div>
+            </div>
+            </div>
+
+            <div class="about" id="about">
+                <h2>About</h2>
+            </div>
+
+            <p id="about-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem praesentium omnis dolorem est minus officiis obcaecati molestiae quo corrupti voluptatem ipsum, earum consectetur eius dolorum ut necessitatibus? Numquam, dicta! Possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis optio, eaque qui, eligendi explicabo dolor quas nam voluptatem commodi voluptatum reiciendis nemo expedita aperiam animi a quasi sunt, omnis repudiandae.</p>
+
+            <div class="about-container">
+                <div class="about-container3">
+                    
+                        <img class="aboutimage" src="images/team2.jpg">
+                        <h3>John Doe</h3>
+                        <p>CEO & Founder</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p><button class="aboutbutton">Contact</button></p>
+                   
+                   
+                    
+
+                </div>
+                <div class="about-container1">
+                    <img class="aboutimage" src="images/team1.jpg">
+                   
+                        <h3>Jane Doe</h3>
+                    <p>Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <p><button class="aboutbutton">Contact</button></p>
+                   
+                    
+
+                </div>
+                <div class="about-container1">
+                    <img class="aboutimage" src="images/team3.jpg">
+                    
+                        <h3>Mike Ross</h3>
+                    <p>Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <p><button class="aboutbutton">Contact</button></p>
+                   
+                    
+
+                </div>
+                <div class="about-container1">
+                   
+                        <img class="aboutimage" src="images/team4.jpg">
+                    <h3>Dan Star</h3>
+                    <p>Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <p><button class="aboutbutton">Contact</button></p>
+                    </div>
+                    
+            </div>
+
+            <div class="contact" id="contact">
+                <h2>Contact</h2>
+            </div>
+
+            <p id="contact-para">Lets get in touch and talk about your next project.</p>
+
+            <div class="input">
+
+                <form action="/action_page.php">
+                    <div class="mb-1 mt-1">
+                      <label for="name" class="form-label"></label>
+                      <input type="text" class="form-control" id="name" placeholder="Name" name="email">
+                    </div>
+                    <div class="mb-1 mt-1">
+                      <label for="email" class="form-label"></label>
+                      <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                    </div>
+                    <div class="mb-1">
+                      <label for="cmt" class="form-label"></label>
+                      <input type="text" class="form-control" id="cmt" placeholder="Comment" name="cmnt">
+                    </div>
+                    <div class="mb-4">
+                      <label for="sub" class="form-label"></label>
+                      <input type="text" class="form-control" id="sub" placeholder="Subject" name="subj">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-dark">SEND MESSAGE</button>
+                  </form>
+            </div>
+
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Pricing</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      We Will Update Soon.
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div>
+
+            <footer>
+                <div class="bg-dark py-5 mt-4 text-white text-center">
+                    <div class="container">
+                        <h1 class="">Our Amazing Website</h1>
+                        <p class="lead"> Thanks for visiting our super cool website about websites.</p>
+                        <i class="fa fa-facebook-official"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-snapchat"></i>
+                        <i class="fa fa-pinterest-p"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-linkedin"></i>
+
+                     
+            
+                    </div>
+                </div>
+            </footer>
+
+
+        
+    
+
+</body>
+</html>
